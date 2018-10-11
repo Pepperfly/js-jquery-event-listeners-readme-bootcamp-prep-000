@@ -8,8 +8,8 @@ function getIt() {
 
 function frameIt() {
   on('load', function() {
-    $('')
-  })
+    $('img'),append('.tasty');
+  });
 }
 
 $(document).ready(function(){
